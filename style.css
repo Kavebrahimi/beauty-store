@@ -548,13 +548,13 @@ nav.third>ul:last-child>li:nth-of-type(2)>ul>li>a:hover{
     width: 100%;
     height: .12em;
     background-color: #cf7888;
-    transform: translate3d(-100%, 0, 0);
+    transform: translateX(-100%);
     transition: transform 300ms
 }
 /* Hovers */
 .hero-section>aside:first-child>table a:focus::after,
 .hero-section>aside:first-child>table a:hover::after{
-    transform: translate3d(0,0,0);
+    transform: translateX(0);
 }
 .hero-section>aside:first-child>table a:hover>img{
     transform: scale(1.16);
